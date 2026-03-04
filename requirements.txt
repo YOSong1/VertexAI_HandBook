@@ -1,0 +1,35 @@
+# ============================================================
+# GCP Codes - All Chapters Requirements
+# ============================================================
+# 설치 방법:
+#   python -m venv .venv
+#   .venv\Scripts\activate       (Windows)
+#   pip install -r requirements.txt
+
+# ── Google Gen AI SDK (Chapter 4, 5, 6, 10, 11) ─────────────
+google-genai
+
+# ── LangChain 생태계 (Chapter 7, 8, 9, 12) ──────────────────
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-google-genai
+langchain-chroma
+
+# ── Vector DB (Chapter 8, 9, 12) ────────────────────────────
+chromadb
+
+# ── PDF 처리 (Chapter 7) ────────────────────────────────────
+pypdf
+
+# ── Web UI (Chapter 12) ─────────────────────────────────────
+streamlit
+
+# ── Web API 서버 (Chapter 12, 15) ───────────────────────────
+fastapi
+uvicorn[standard]
+pydantic
+
+# ── 수치 계산 (Chapter 6) ───────────────────────────────────
+numpy
